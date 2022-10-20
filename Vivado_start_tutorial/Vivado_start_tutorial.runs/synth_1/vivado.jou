@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct  5 20:21:11 2022
+# Process ID: 38140
+# Current directory: /home/andreasb/Vivado_start_tutorial/Vivado_start_tutorial.runs/synth_1
+# Command line: vivado -log fulladder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fulladder.tcl
+# Log file: /home/andreasb/Vivado_start_tutorial/Vivado_start_tutorial.runs/synth_1/fulladder.vds
+# Journal file: /home/andreasb/Vivado_start_tutorial/Vivado_start_tutorial.runs/synth_1/vivado.jou
+# Running On: Andreasb, OS: Linux, CPU Frequency: 2500.000 MHz, CPU Physical cores: 4, Host memory: 16545 MB
+#-----------------------------------------------------------
+source fulladder.tcl -notrace

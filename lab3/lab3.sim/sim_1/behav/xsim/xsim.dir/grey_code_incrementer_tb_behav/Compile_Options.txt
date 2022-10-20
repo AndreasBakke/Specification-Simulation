@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "grey_code_incrementer_tb_behav" "xil_defaultlib.grey_code_incrementer_tb" -log "elaborate.log" 

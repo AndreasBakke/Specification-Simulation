@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/andreasb/Lab2/Lab2.sim/sim_1/synth/func/xsim/decoder_3_8_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_3_8
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/andreasb/Lab2/Lab2.srcs/sim_1/new/decoder_3_8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder_3_8_tb'

@@ -1,0 +1,205 @@
+
+*** Running vivado
+    with args -log priority_encoder_4_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source priority_encoder_4_2.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source priority_encoder_4_2.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/andreasb/Lab2/Lab2.srcs/utils_1/imports/synth_1/mux_8.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/andreasb/Lab2/Lab2.srcs/utils_1/imports/synth_1/mux_8.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top priority_encoder_4_2 -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Vivado_Tcl 4-1810] synth_design options have changed between reference and incremental; A full resynthesis will be run
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 46271
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2627.160 ; gain = 0.000 ; free physical = 2611 ; free virtual = 10874
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'priority_encoder_4_2' [/home/andreasb/Lab2/Lab2.srcs/sources_1/new/priority_encoder_4_2.vhd:54]
+WARNING: [Synth 8-153] case item 4'b1xxx will never be executed [/home/andreasb/Lab2/Lab2.srcs/sources_1/new/priority_encoder_4_2.vhd:58]
+WARNING: [Synth 8-153] case item 4'b01xx will never be executed [/home/andreasb/Lab2/Lab2.srcs/sources_1/new/priority_encoder_4_2.vhd:58]
+WARNING: [Synth 8-153] case item 4'b001x will never be executed [/home/andreasb/Lab2/Lab2.srcs/sources_1/new/priority_encoder_4_2.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'priority_encoder_4_2' (0#1) [/home/andreasb/Lab2/Lab2.srcs/sources_1/new/priority_encoder_4_2.vhd:54]
+WARNING: [Synth 8-3917] design priority_encoder_4_2_behav_2 has port o[1] driven by constant 0
+WARNING: [Synth 8-3917] design priority_encoder_4_2_behav_2 has port o[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2627.160 ; gain = 0.000 ; free physical = 3650 ; free virtual = 11913
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2627.160 ; gain = 0.000 ; free physical = 3711 ; free virtual = 11973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3709 ; free virtual = 11971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3707 ; free virtual = 11971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3707 ; free virtual = 11971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3701 ; free virtual = 11964
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : synth_design options have changed between reference and incremental
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design priority_encoder_4_2 has port o[1] driven by constant 0
+WARNING: [Synth 8-3917] design priority_encoder_4_2 has port o[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3421 ; free virtual = 11687
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3421 ; free virtual = 11687
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3418 ; free virtual = 11684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3419 ; free virtual = 11685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3419 ; free virtual = 11685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3419 ; free virtual = 11685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3419 ; free virtual = 11685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3419 ; free virtual = 11685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3419 ; free virtual = 11685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     1|
+|2     |IBUF |     4|
+|3     |OBUF |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     8|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3419 ; free virtual = 11685
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.164 ; gain = 8.004 ; free physical = 3430 ; free virtual = 11696
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2635.172 ; gain = 8.004 ; free physical = 3430 ; free virtual = 11696
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2635.172 ; gain = 0.000 ; free physical = 3515 ; free virtual = 11781
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2635.172 ; gain = 0.000 ; free physical = 3436 ; free virtual = 11703
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: d135f996
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2635.172 ; gain = 8.012 ; free physical = 3643 ; free virtual = 11911
+INFO: [Common 17-1381] The checkpoint '/home/andreasb/Lab2/Lab2.runs/synth_1/priority_encoder_4_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file priority_encoder_4_2_utilization_synth.rpt -pb priority_encoder_4_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 10 13:00:32 2022...

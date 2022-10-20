@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Oct 10 13:00:17 2022
+# Process ID: 46259
+# Current directory: /home/andreasb/Lab2/Lab2.runs/synth_1
+# Command line: vivado -log priority_encoder_4_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source priority_encoder_4_2.tcl
+# Log file: /home/andreasb/Lab2/Lab2.runs/synth_1/priority_encoder_4_2.vds
+# Journal file: /home/andreasb/Lab2/Lab2.runs/synth_1/vivado.jou
+# Running On: Andreasb, OS: Linux, CPU Frequency: 2500.000 MHz, CPU Physical cores: 4, Host memory: 16545 MB
+#-----------------------------------------------------------
+source priority_encoder_4_2.tcl -notrace

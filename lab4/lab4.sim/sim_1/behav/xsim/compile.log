@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/andreasb/lab4/lab4.srcs/sim_1/new/majority_vote_alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'majority_vote_alu_tb'

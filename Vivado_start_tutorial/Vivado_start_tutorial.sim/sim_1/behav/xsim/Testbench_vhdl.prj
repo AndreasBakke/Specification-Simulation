@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Vivado_start_tutorial.srcs/sources_1/imports/Downloads/fulladder.vhd" \
+"../../../../Vivado_start_tutorial.srcs/sources_1/imports/Downloads/fulladder_tb.vhd" \
+
+# Do not sort compile order
+nosort

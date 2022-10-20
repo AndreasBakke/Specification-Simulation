@@ -1,0 +1,100 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "fulladder")
+(DATE "Fri Sep 30 10:47:56 2022")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2022.1")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE a_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (753.9:829.8:829.8) (753.9:829.8:829.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE b_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (753.9:829.8:829.8) (753.9:829.8:829.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE cin_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (753.9:829.8:829.8) (753.9:829.8:829.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE cout_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2218.9:2461.8:2461.8) (2218.9:2461.8:2461.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE cout_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE sum_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2218.9:2461.8:2461.8) (2218.9:2461.8:2461.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE sum_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (45.0:56.0:56.0) (45.0:56.0:56.0))
+      (IOPATH I1 O (52.0:65.0:65.0) (52.0:65.0:65.0))
+      (IOPATH I0 O (54.0:67.0:67.0) (54.0:67.0:67.0))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "fulladder")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT a_IBUF_inst/O cout_OBUF_inst_i_1/I0 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT a_IBUF_inst/O sum_OBUF_inst_i_1/I1 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT b_IBUF_inst/O sum_OBUF_inst_i_1/I0 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT b_IBUF_inst/O cout_OBUF_inst_i_1/I2 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT cin_IBUF_inst/O cout_OBUF_inst_i_1/I1 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT cin_IBUF_inst/O sum_OBUF_inst_i_1/I2 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT cout_OBUF_inst_i_1/O cout_OBUF_inst/I (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT sum_OBUF_inst_i_1/O sum_OBUF_inst/I (554.4:583.6:583.6) (554.4:583.6:583.6))
+      )
+    )
+)
+)

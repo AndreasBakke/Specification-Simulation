@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/andreasb/Lab2/Lab2.sim/sim_1/impl/func/xsim/decoder_3_8_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_3_8
+INFO: [VRFC 10-311] analyzing module glbl
