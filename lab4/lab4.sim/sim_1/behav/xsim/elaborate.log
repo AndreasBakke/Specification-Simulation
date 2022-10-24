@@ -1,6 +1,6 @@
 Vivado Simulator v2022.1
 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: /home/andreasb/Documents/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot majority_vote_alu_tb_behav xil_defaultlib.majority_vote_alu_tb -log elaborate.log 
+Running: /home/andreasb/Documents/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot combinational_multiplier_tb_behav xil_defaultlib.combinational_multiplier_tb -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,8 +11,6 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
-Compiling architecture datafl of entity xil_defaultlib.alu [\alu(n=8)\]
-Compiling architecture behav of entity xil_defaultlib.comparator [\comparator(n=8)\]
-Compiling architecture datafl of entity xil_defaultlib.majority_vote_alu [majority_vote_alu_default]
-Compiling architecture beh of entity xil_defaultlib.majority_vote_alu_tb
-Built simulation snapshot majority_vote_alu_tb_behav
+Compiling architecture optimizeddatafl of entity xil_defaultlib.combinational_multiplier [combinational_multiplier_default]
+Compiling architecture tbarch of entity xil_defaultlib.combinational_multiplier_tb
+Built simulation snapshot combinational_multiplier_tb_behav

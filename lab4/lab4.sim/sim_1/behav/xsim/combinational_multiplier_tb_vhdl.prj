@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab4.srcs/sources_1/new/combinational_multiplier.vhd" \
+"../../../../lab4.srcs/sim_1/new/combinational_multiplier_tb.vhd" \
+
+# Do not sort compile order
+nosort

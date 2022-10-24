@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1666006908" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/majority_vote_alu.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="majority_vote_alu_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="majority_vote_alu.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="majority_vote_alu_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="majority_vote_alu_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="majority_vote_alu_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="majority_vote_alu.vds"/>
-  <File Type="REPORTS-TCL" Name="majority_vote_alu_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="majority_vote_alu_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="majority_vote_alu.tcl"/>
+  <File Type="REPORTS-TCL" Name="majority_vote_alu_reports.tcl"/>
+  <File Type="RDS-RDS" Name="majority_vote_alu.vds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/new/alu.vhd">

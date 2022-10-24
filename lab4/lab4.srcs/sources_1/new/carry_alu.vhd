@@ -23,8 +23,8 @@ BEGIN
     WITH ctrl SELECT buff <=
         '0' & std_logic_vector(signed(src0) + signed(src1) + ('0' & c_in)) WHEN "100",
         '0' & std_logic_vector(signed(src0) - signed(src1) + ('0' & c_in)) WHEN "101",
-        '0' & src0 AND src1 WHEN "110",
-        '0' & src0 OR src1 WHEN "111",
+        '0' & (src0 AND src1) WHEN "110",
+        '0' & (src0 OR src1) WHEN "111",
         '0' & std_logic_vector(signed(src0)+1+('0' & c_in)) WHEN OTHERS;
     WITH enable SELECT result <=
         buff(N-1 DOWNTO 0) WHEN '1',
