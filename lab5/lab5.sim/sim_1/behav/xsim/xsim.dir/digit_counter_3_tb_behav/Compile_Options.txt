@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "digit_counter_3_tb_behav" "xil_defaultlib.digit_counter_3_tb" -log "elaborate.log" 

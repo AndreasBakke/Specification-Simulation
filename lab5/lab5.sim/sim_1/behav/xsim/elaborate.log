@@ -1,0 +1,20 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /home/andreasb/Documents/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot digit_counter_3_tb_behav xil_defaultlib.digit_counter_3_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-2686] null range choice is ignored [/home/andreasb/vivado/lab5/lab5.srcs/sources_1/new/mod10_counter.vhd:44]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behav of entity xil_defaultlib.mod10_counter [\mod10_counter(n=0)\]
+Compiling architecture behav of entity xil_defaultlib.mod10_counter [mod10_counter_default]
+Compiling architecture behav of entity xil_defaultlib.mod10_counter [\mod10_counter(n=2)\]
+Compiling architecture struct of entity xil_defaultlib.digit_counter_3 [digit_counter_3_default]
+Compiling architecture tbarch of entity xil_defaultlib.digit_counter_3_tb
+Built simulation snapshot digit_counter_3_tb_behav
