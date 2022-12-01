@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5509127931160750449  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot edge_detector_tb_behav xil_defaultlib.edge_detector_tb" , 
+    buildDate : "Apr 18 2022" , 
+    buildTime : "15:53:03" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/edge_detector_tb_behav/xsimk\"   \"xsim.dir/edge_detector_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/edge_detector_tb_behav/obj/xsim_1.lnx64.o\" -L\"/home/andreasb/Documents/Xilinx/Vivado/2022.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

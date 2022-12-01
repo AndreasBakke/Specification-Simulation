@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/andreasb/vivado/lab6/lab6.srcs/sim_1/new/de_bruijn_counter_8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'de_bruijn_counter_8_tb'

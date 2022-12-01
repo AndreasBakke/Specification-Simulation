@@ -1,0 +1,7 @@
+Running: xsim.dir/self_correcting_ring_counter_tb_behav/xsimk -simmode gui -wdb self_correcting_ring_counter_tb_behav.wdb -simrunnum 0 -socket 33063
+Design successfully loaded
+Design Loading Memory Usage: 29020 KB (Peak: 29612 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 110756 KB (Peak: 168288 KB)
+Simulation CPU Usage: 30 ms

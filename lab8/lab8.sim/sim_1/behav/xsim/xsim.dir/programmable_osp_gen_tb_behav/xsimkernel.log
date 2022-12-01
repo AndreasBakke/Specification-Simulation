@@ -1,0 +1,7 @@
+Running: xsim.dir/programmable_osp_gen_tb_behav/xsimk -simmode gui -wdb programmable_osp_gen_tb_behav.wdb -simrunnum 0 -socket 37013
+Design successfully loaded
+Design Loading Memory Usage: 29044 KB (Peak: 29624 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 118980 KB (Peak: 168312 KB)
+Simulation CPU Usage: 20 ms

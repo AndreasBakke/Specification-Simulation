@@ -1,0 +1,4 @@
+Running: xsim.dir/manchester_encoder_tb_behav/xsimk -simmode gui -wdb manchester_encoder_tb_behav.wdb -simrunnum 0 -socket 56129
+Design successfully loaded
+Design Loading Memory Usage: 29020 KB (Peak: 29612 KB)
+Design Loading CPU Usage: 10 ms
