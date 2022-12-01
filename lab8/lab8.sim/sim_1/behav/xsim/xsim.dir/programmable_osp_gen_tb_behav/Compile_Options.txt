@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "programmable_osp_gen_tb_behav" "xil_defaultlib.programmable_osp_gen_tb" -log "elaborate.log" 

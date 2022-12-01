@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/andreasb/vivado/lab8/lab8.srcs/sources_1/new/programmable_osp_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'programmable_osp_gen'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/andreasb/vivado/lab8/lab8.srcs/sim_1/new/programmable_osp_gen_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'programmable_osp_gen_tb'
