@@ -1,0 +1,15 @@
+0.7
+2020.2
+Apr 18 2022
+15:53:03
+/home/andreasb/vivado/lab9/lab9.srcs/sim_1/new/multiplier_tb.vhd,1669982131,vhdl,,,,multiplier_tb,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sim_1/new/square_root_approximator_tb.vhd,1669910512,vhdl,,,,square_root_approximator_tb,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/Mux_N_9.vhd,1669902744,vhdl,/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/sqra_dp.vhd,,,arrayinput,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/multiplier.vhd,1669982717,vhdl,/home/andreasb/vivado/lab9/lab9.srcs/sim_1/new/multiplier_tb.vhd,,,multiplier,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/multiplier_ctrl.vhd,1669982858,vhdl,,,,multiplier_ctrl,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/multiplier_dp.vhd,1669982743,vhdl,,,,multiplier_dp,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/mux_4_9.vhd,1669911151,vhdl,,,,mux_4_9,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/mux_8_9.vhd,1669911114,vhdl,,,,mux_8_9,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/sqra_ctrl.vhd,1669910149,vhdl,,,,sqra_ctrl,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/sqra_dp.vhd,1669911368,vhdl,,,,sqra_dp,,,,,,,,
+/home/andreasb/vivado/lab9/lab9.srcs/sources_1/new/square_root_approximator.vhd,1669910745,vhdl,/home/andreasb/vivado/lab9/lab9.srcs/sim_1/new/square_root_approximator_tb.vhd,,,square_root_approximator,,,,,,,,
