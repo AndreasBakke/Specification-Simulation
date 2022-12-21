@@ -1,0 +1,20 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /home/andreasb/Documents/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot BIST_RAM_top_tb_behav xil_defaultlib.BIST_RAM_top_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture beh of entity xil_defaultlib.RAM [\RAM(p=65536,k=16,td=1000)\]
+Compiling architecture behav of entity xil_defaultlib.BIST_DP [bist_dp_default]
+Compiling architecture behav of entity xil_defaultlib.BIST_FSM [bist_fsm_default]
+Compiling architecture fsmd of entity xil_defaultlib.BIST [bist_default]
+Compiling architecture struct of entity xil_defaultlib.BIST_RAM_top [bist_ram_top_default]
+Compiling architecture tbarch of entity xil_defaultlib.bist_ram_top_tb
+Built simulation snapshot BIST_RAM_top_tb_behav

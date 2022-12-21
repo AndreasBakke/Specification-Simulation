@@ -1,0 +1,8 @@
+0.7
+2020.2
+Apr 18 2022
+15:53:03
+/home/andreasb/vivado/lab10/lab10.srcs/sim_1/new/FIFO_tb.vhd,1670854062,vhdl,,,,fifo_tb,,,,,,,,
+/home/andreasb/vivado/lab10/lab10.srcs/sources_1/new/FIFO.vhd,1670851976,vhdl,,,,fifo,,,,,,,,
+/home/andreasb/vivado/lab10/lab10.srcs/sources_1/new/FIFO_ctrl.vhd,1670854020,vhdl,/home/andreasb/vivado/lab10/lab10.srcs/sources_1/new/FIFO.vhd,,,fifo_ctrl,,,,,,,,
+/home/andreasb/vivado/lab10/lab10.srcs/sources_1/new/FIFO_dp.vhd,1670853871,vhdl,/home/andreasb/vivado/lab10/lab10.srcs/sources_1/new/FIFO.vhd,,,fifo_dp,,,,,,,,
