@@ -1,0 +1,14 @@
+0.7
+2020.2
+Apr 18 2022
+15:53:03
+/home/andreasb/exam/exam.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+/home/andreasb/exam/exam.srcs/sim_1/new/LUT_tb.vhd,1674549841,vhdl,,,,lut_tb,,,,,,,,
+/home/andreasb/exam/exam.srcs/sim_1/new/gate_controller_tb.vhd,1674553481,vhdl,,,,gate_controller_tb,,,,,,,,
+/home/andreasb/exam/exam.srcs/sim_1/new/lcm_tb.vhd,1674560778,vhdl,,,,lcm_tb,,,,,,,,
+/home/andreasb/exam/exam.srcs/sources_1/new/Gate_Controller.v,1674553961,verilog,,/home/andreasb/exam/exam.srcs/sim_1/new/gate_controller_tb.v,,Gate_Controller,,,,,,,,
+/home/andreasb/exam/exam.srcs/sources_1/new/LUT.vhd,1674548682,vhdl,,,,lut,,,,,,,,
+/home/andreasb/exam/exam.srcs/sources_1/new/gate_controller.vhd,1674550726,vhdl,,,,gate_controller,,,,,,,,
+/home/andreasb/exam/exam.srcs/sources_1/new/lcm.vhd,1674560925,vhdl,/home/andreasb/exam/exam.srcs/sim_1/new/lcm_tb.vhd,,,lcm,,,,,,,,
+/home/andreasb/exam/exam.srcs/sources_1/new/lcm_FSM.vhd,1674560090,vhdl,,,,lcm_fsm,,,,,,,,
+/home/andreasb/exam/exam.srcs/sources_1/new/lcm_dp.vhd,1674561191,vhdl,,,,lcm_dp,,,,,,,,
